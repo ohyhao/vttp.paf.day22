@@ -30,7 +30,7 @@ jobs:
     - name: Upload coverage badge to DigitalOcean Spaces
     - uses: BetaHuhn/do-spaces-action@v2
       with:
-        access_key: ${{ secrets.access_key}}
+        access_key: ${{ secrets.access_key }}
         secret_key: ${{ secrets.secret_key }}
         space_name: yh-do-bucket
         space_region: sgp1
